@@ -1,0 +1,18 @@
+{
+  "name": "arena-ai",
+  "version": "1.0.0",
+  "description": "AI agent tournament platform with ELO rating system on ProbeChain Rydberg Testnet",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network rydberg",
+    "deploy:local": "hardhat run scripts/deploy.ts --network hardhat"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
