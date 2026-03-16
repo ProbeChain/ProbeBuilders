@@ -1,0 +1,17 @@
+{
+  "name": "meetup-agent",
+  "version": "1.0.0",
+  "description": "On-chain event management with ticketing, check-in, and refunds on ProbeChain",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:rydberg": "npx hardhat run scripts/deploy.ts --network rydberg"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  }
+}

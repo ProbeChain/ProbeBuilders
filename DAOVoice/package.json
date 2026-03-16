@@ -1,0 +1,17 @@
+{
+  "name": "dao-voice",
+  "version": "1.0.0",
+  "description": "Weighted governance with reputation-based voting power on ProbeChain",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:rydberg": "npx hardhat run scripts/deploy.ts --network rydberg"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
