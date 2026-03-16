@@ -1,0 +1,17 @@
+{
+  "name": "bugbountyagent",
+  "version": "1.0.0",
+  "description": "Decentralized bug bounty platform on ProbeChain",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network rydberg",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
