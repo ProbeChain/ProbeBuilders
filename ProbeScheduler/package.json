@@ -1,0 +1,17 @@
+{
+  "name": "probe-scheduler",
+  "version": "1.0.0",
+  "description": "Decentralized cron job scheduler on ProbeChain Rydberg Testnet",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network rydberg",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.0",
+    "typescript": "^5.3.0"
+  }
+}
