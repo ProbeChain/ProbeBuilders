@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://probechain.org/logo-probe-fire.png" alt="Probe Builders" width="120" />
+  <a href="https://probe.builders"><img src="https://probe.builders/logo-probe-fire.png" alt="Probe Builders" width="120" /></a>
 </p>
 
 <h1 align="center">Probe Builders</h1>
